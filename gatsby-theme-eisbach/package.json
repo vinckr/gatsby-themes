@@ -1,0 +1,51 @@
+{
+  "name": "@vinckr/gatsby-theme-eisbach",
+  "version": "3.0.7",
+  "author": "vinckr <hello@vinckr.de>",
+  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "peerDependencies": {
+    "gatsby": "^4.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "@vinckr/gatsby-theme-eisbach-core": "^3.0.7",
+    "@theme-ui/presets": "^0.11.1",
+    "gatsby-plugin-image": "^2.11.1",
+    "gatsby-plugin-react-helmet": "^5.11.0",
+    "gatsby-plugin-theme-ui": "^0.11.1",
+    "polished": "^4.1.4",
+    "react-helmet": "^6.1.0",
+    "react-spring": "^9.4.4",
+    "theme-ui": "^0.11.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "vinckr"
+  ],
+  "bugs": {
+    "url": "https://github.com/vinckr/gatsby-themes/issues"
+  },
+  "homepage": "https://themes.vinckr.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinckr/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-eisbach"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
